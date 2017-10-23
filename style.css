@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+html {
+  background-color: powderblue;
+  background: url(bg.svg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    font-family: 'PT Sans', cursive;
+    color: #FF00FF;
+}
+
+span { 
+    text-align: center; 
+    background-color: black; 
+    font-weight: bold;
+}
+a:link { 
+    background-color: transparent;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+}
