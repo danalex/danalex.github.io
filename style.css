@@ -20,6 +20,7 @@ span {
     font-weight: bold;
 }
 a:link { 
+    color: white;
     background-color: transparent;
 }
 a:hover {
