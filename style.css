@@ -20,11 +20,11 @@ span {
     font-weight: bold;
 }
 a:link { 
-    color: #0000FF;;
+    color: white;
     background-color: transparent;
 }
 a:visited {
-    color: #0000FF;;
+    color: white;
 }
 a:hover {
   color: red;
