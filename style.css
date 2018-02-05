@@ -23,6 +23,9 @@ a:link {
     color: white;
     background-color: transparent;
 }
+a:visited {
+    color: white;
+}
 a:hover {
   color: red;
   background-color: transparent;
