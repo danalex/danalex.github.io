@@ -202,12 +202,7 @@ setup = function() {
 };
 
 draw = function() {
-  // Display at full opacity
-  //let dx = mouseX - img.width / 2 - offset;
-  //offset += dx * easing;
-  //tint(255, 127); // Display at half opacity
-  //image(img, offset, 0);
-  
+
   var eachDot, i, len;   
   blendMode(BLEND);
   background(0,0,255);
