@@ -9,7 +9,7 @@ dotArray = [];
 
 effectiveRadius = 0;
 
-
+/*
 // ---------- Dot ------------------------------------------------------ //
 
 Dot = (function() {
@@ -184,14 +184,14 @@ attractToMouse = function(dot, effectiveRadius) {
   }
   dot.setTarget(x, y);
 };
-
+*/
 
 // ---------- Setup & Draw ------------------------------------------ //
 
 
 setup = function() {  
   var i;
-  var canvas = createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(500, 500);
   img22 = loadImage('mygifpic.gif');
   //canvas.parent('sketch-holder');
   for (i = 0; i < 150; i++) {
@@ -201,7 +201,8 @@ setup = function() {
 };
 
 draw = function() {
-  image(img22, 10, 10, 50, 50);
+  image(img22, 0, 0);
+  /*
   var eachDot, i, len;   
   blendMode(BLEND);
   background(0,0,255);
@@ -217,8 +218,10 @@ draw = function() {
   } else {
     processDots(attractToMouse, effectiveRadius, 0.1);
   }
+  */
 };
 
+/*
 keyPressed = function() {
   if (key === 'P') {  
     noLoop();
@@ -230,3 +233,4 @@ keyReleased = function() {
     loop();
   }
 };
+*/
