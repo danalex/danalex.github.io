@@ -193,7 +193,7 @@ setup = function() {
   var i;
   var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('sketch-holder');
-  img = loadImage('./mygifpic.gif');
+  img = loadImage('../mygifpic.gif');
   for (i = 0; i < 150; i++) {
     dotArray.push(createRandomDot());
   }
