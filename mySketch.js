@@ -193,8 +193,8 @@ setup = function() {
   var i;
   var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('sketch-holder');
-  img = loadImage('mygifpic.gif');
-  image(img, 0, 0);
+  //img = loadImage('mygifpic.gif');
+  //image(img, 0, 0);
   for (i = 0; i < 150; i++) {
     dotArray.push(createRandomDot());
   }
@@ -202,7 +202,6 @@ setup = function() {
 };
 
 draw = function() {
-
   var eachDot, i, len;   
   blendMode(BLEND);
   background(0,0,255);
