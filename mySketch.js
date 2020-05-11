@@ -202,7 +202,7 @@ setup = function() {
 
 draw = function() {
   image(img22, 0, 0);
-  /*
+  
   var eachDot, i, len;   
   blendMode(BLEND);
   background(0,0,255);
@@ -218,7 +218,7 @@ draw = function() {
   } else {
     processDots(attractToMouse, effectiveRadius, 0.1);
   }
-  */
+  
 };
 
 /*
