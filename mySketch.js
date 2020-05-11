@@ -9,7 +9,7 @@ dotArray = [];
 
 effectiveRadius = 0;
 
-/*
+
 // ---------- Dot ------------------------------------------------------ //
 
 Dot = (function() {
@@ -184,7 +184,7 @@ attractToMouse = function(dot, effectiveRadius) {
   }
   dot.setTarget(x, y);
 };
-*/
+
 
 // ---------- Setup & Draw ------------------------------------------ //
 
@@ -221,7 +221,7 @@ draw = function() {
   
 };
 
-/*
+
 keyPressed = function() {
   if (key === 'P') {  
     noLoop();
@@ -233,4 +233,4 @@ keyReleased = function() {
     loop();
   }
 };
-*/
+
