@@ -192,9 +192,8 @@ attractToMouse = function(dot, effectiveRadius) {
 setup = function() {  
   var i;
   var canvas = createCanvas(windowWidth, windowHeight);
+  // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
-  //img = loadImage('mygifpic.gif');
-  //image(img, 0, 0);
   for (i = 0; i < 150; i++) {
     dotArray.push(createRandomDot());
   }
