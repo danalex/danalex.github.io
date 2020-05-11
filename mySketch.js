@@ -191,7 +191,9 @@ attractToMouse = function(dot, effectiveRadius) {
 
 setup = function() {  
   var i;
-  createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(windowWidth, windowHeight);
+  // Move the canvas so it’s inside our <div id="sketch-holder">.
+  canvas.parent('sketch-holder');
   for (i = 0; i < 150; i++) {
     dotArray.push(createRandomDot());
   }
