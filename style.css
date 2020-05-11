@@ -14,6 +14,11 @@ body {
     color: #FF00FF;
 }
 
+#sketch-holder {
+  position: relative;
+  z-index: 5;
+}
+
 span { 
     text-align: center; 
     background-color: black; 
