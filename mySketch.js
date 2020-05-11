@@ -191,7 +191,7 @@ attractToMouse = function(dot, effectiveRadius) {
 
 setup = function() {  
   var i;
-  var canvas = createCanvas(500, 500);
+  var canvas = createCanvas(windowWidth, windowHeight);
   //img22 = loadImage('mygifpic.gif');
   //canvas.parent('sketch-holder');
   for (i = 0; i < 150; i++) {
