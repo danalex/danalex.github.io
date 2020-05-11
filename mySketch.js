@@ -192,7 +192,7 @@ attractToMouse = function(dot, effectiveRadius) {
 setup = function() {  
   var i;
   var canvas = createCanvas(windowWidth, windowHeight);
-  // Move the canvas so it’s inside our <div id="sketch-holder">.
+  img = loadImage('mygifpic.gif');
   canvas.parent('sketch-holder');
   for (i = 0; i < 150; i++) {
     dotArray.push(createRandomDot());
@@ -201,6 +201,7 @@ setup = function() {
 };
 
 draw = function() {
+  image(img, 0, 0);
   var eachDot, i, len;   
   blendMode(BLEND);
   background(0,0,255);
