@@ -12,10 +12,11 @@ html {
 body {
     font-family: 'PT Sans', cursive;
     color: #FF00FF;
+    z-index: 1;
 }
 
 #sketch-holder {
-  position: relative;
+  position: absolute;
   z-index: 5;
 }
 
@@ -23,6 +24,7 @@ span {
     text-align: center; 
     background-color: black; 
     font-weight: bold;
+    z-index: 2;
 }
 a:link { 
     color: white;
